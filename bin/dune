@@ -1,6 +1,6 @@
 (executable
-  (package tree-sitter-lang-pro)
+  (package tree-sitter-lang)
   (public_name parse-elixir)
   (name Main)
-  (libraries tree-sitter-lang-pro.elixir)
+  (libraries tree-sitter-lang.elixir)
 )

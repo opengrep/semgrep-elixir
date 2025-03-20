@@ -2,7 +2,7 @@
 (include_subdirs qualified)
 
 (library
-  (public_name tree-sitter-lang-pro.elixir)
+  (public_name tree-sitter-lang.elixir)
   (name tree_sitter_elixir)
   (libraries atdgen-runtime tree-sitter.run)
 
