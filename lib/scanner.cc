@@ -52,7 +52,7 @@ bool is_whitespace(int32_t c) {
 }
 
 bool is_inline_whitespace(int32_t c) {
-  return c == ' ' || c == '\t';
+  return c == ' ' || c == '\t' || c == '\r';
 }
 
 bool is_newline(int32_t c) {
